@@ -1,14 +1,23 @@
 # kylin-redis
 
 Jedis 详细介绍
+
 Jedis 是 Redis 官方首选的 Java 客户端开发包。
+
 
 实例方法：
 
+
 import redis.clients.jedis.*
+
 Jedis jedis = new Jedis("localhost");
+
 jedis.set("foo", "bar");
+
 String value = jedis.get("foo");
+
+
+
 支持的特效：
 
 Sorting
